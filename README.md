@@ -5,11 +5,10 @@
 </h2>
 <p>You can watch the site 
     <a href="https://mozanyazar.github.io/Netflix-Landing-Page-Clone/">Here</a>
-</p>
-    <p>
-    in this project I used SASS & VanillaJs
+     in this project I used SASS & VanillaJs
 
 </p>
+  
 <h3>
     
     I have been learning how to code just in 2 months and it's my first clone project
