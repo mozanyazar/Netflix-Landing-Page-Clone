@@ -338,7 +338,7 @@ footer {
     footer {
         .content {
             .mid {
-                padding-left: 50px;
+                padding-left: 20px;
             }
         }
     }
@@ -529,17 +529,16 @@ footer {
             }
         }
     }
-}
-
-//footer
-footer {
-    .content {
-        .box {
-            width: 100%;
-            margin-top: 30px;
-        }
-        .mid {
-            padding-left: 0;
+    //footer
+    footer {
+        .content {
+            .box {
+                width: 100%;
+                margin-top: 30px;
+            }
+            .mid {
+                padding-left: 0;
+            }
         }
     }
 }
