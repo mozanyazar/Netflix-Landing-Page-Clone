@@ -11,7 +11,10 @@
   width: 100%;
   height: 100vh;
   position: relative;
-  background: url(/img/Netflix-Background.jpg) no-repeat center center/cover;
+  background-image: url("/img/Netflix-Background.JPG");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
 }
 
 .showcase::after {
@@ -529,16 +532,30 @@ footer .content .box {
   .main-section .section-container .right-column {
     height: 270px;
   }
+  .main-section .section-container .left-column h1 {
+    font-size: 2.4rem;
+  }
+  .main-section .section-container .left-column h3 {
+    font-size: 1.5rem;
+  }
   .main-section .section2-container .left-column .box {
     width: 100%;
   }
-  footer .content .box {
-    width: 100%;
-    margin-top: 30px;
+  .main-section .section2-container .right-column h1 {
+    font-size: 2.4rem;
   }
-  footer .content .mid {
-    padding-left: 0;
+  .main-section .section2-container .right-column h3 {
+    font-size: 1.5rem;
   }
+}
+
+footer .content .box {
+  width: 100%;
+  margin-top: 30px;
+}
+
+footer .content .mid {
+  padding-left: 0;
 }
 
 @media (max-width: 350px) {
