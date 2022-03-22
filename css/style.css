@@ -74,6 +74,7 @@
 }
 
 .showcase .started-container h1 {
+  margin: 2px;
   color: white;
   font-size: 3.9rem;
 }
