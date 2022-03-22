@@ -1,0 +1,566 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.showcase {
+  font-family: "Poppins", sans-serif;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background: url(/img/Netflix-Background.jpg) no-repeat center center/cover;
+}
+
+.showcase::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background: rgba(0, 0, 0, 0.63);
+  -webkit-box-shadow: inset 120px 100px 250px #000000, inset -120px -100px -250px #000000;
+          box-shadow: inset 120px 100px 250px #000000, inset -120px -100px -250px #000000;
+}
+
+.showcase .showcase-top {
+  position: relative;
+  z-index: 2;
+  padding: 26px 0px 0px 55px;
+}
+
+.showcase .showcase-top .submit {
+  background-color: #dc030f;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  float: right;
+  position: relative;
+  right: 55px;
+  padding: 5px 16px;
+}
+
+.showcase .showcase-top select {
+  background-color: transparent;
+  color: #fff;
+  border-radius: 3px;
+  float: right;
+  position: relative;
+  right: 85px;
+  padding: 5px 16px;
+}
+
+.showcase .showcase-top select option {
+  color: #000000;
+}
+
+.showcase .showcase-top #logo {
+  height: 35px;
+}
+
+.showcase .started-container {
+  z-index: 2;
+  position: relative;
+  top: 180px;
+  width: 100%;
+  text-align: center;
+}
+
+.showcase .started-container h1 {
+  color: white;
+  font-size: 3.9rem;
+}
+
+.showcase .started-container .p-1 {
+  color: white;
+  font-size: 1.7rem;
+}
+
+.showcase .started-container .p-2 {
+  color: white;
+  font-size: 1.2rem;
+}
+
+.showcase .started-container input {
+  width: 35%;
+  padding: 22px;
+  border: none;
+  margin-top: 0.5%;
+  outline: none;
+}
+
+.showcase .started-container button {
+  padding: 22px;
+  border: none;
+  background-color: #dc030f;
+  color: #fafafa;
+  margin-left: -0.3%;
+  font-weight: bold;
+}
+
+.showcase .started-container button i {
+  margin-left: 0.3rem;
+}
+
+.main-section .section-container {
+  border-top: 8px solid #222;
+  background-color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0px 80px;
+  padding-bottom: 90px;
+}
+
+.main-section .section-container .left-column {
+  padding-top: 13%;
+  padding-right: 2%;
+}
+
+.main-section .section-container .left-column h1 {
+  color: white;
+  font-size: 3.4rem;
+}
+
+.main-section .section-container .left-column h3 {
+  color: white;
+  font-size: 1.6rem;
+  font-weight: normal;
+  margin-top: 5%;
+}
+
+.main-section .section-container .right-column {
+  overflow: hidden;
+  position: relative;
+  width: 80%;
+  height: 500px;
+}
+
+.main-section .section-container .right-column img {
+  position: absolute;
+  width: 100%;
+}
+
+.main-section .section-container .right-column .video-1 {
+  margin-left: 13%;
+  margin-top: 16%;
+  width: 73%;
+}
+
+.main-section .section-container .right-column .video-2 {
+  margin-left: 19%;
+  margin-top: 8%;
+  width: 60%;
+}
+
+.main-section .section2-container {
+  font-family: "Poppins", sans-serif;
+  border-top: 8px solid #222;
+  background-color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0px 80px;
+  padding-bottom: 90px;
+}
+
+.main-section .section2-container .left-column img {
+  width: 100%;
+}
+
+.main-section .section2-container .left-column .box {
+  border: 2px solid rgba(255, 255, 255, 0.25);
+  background-color: black;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 10px;
+  width: 60%;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+  margin-top: -22%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main-section .section2-container .left-column .box .stranger {
+  width: 25%;
+}
+
+.main-section .section2-container .left-column .box p {
+  margin-left: 10%;
+  margin-top: 3%;
+}
+
+.main-section .section2-container .left-column .box p a {
+  text-decoration: none;
+}
+
+.main-section .section2-container .left-column .box .gif {
+  width: 3em;
+  height: 3em;
+  position: absolute;
+  right: 0;
+}
+
+.main-section .section2-container .right-column {
+  padding-top: 13%;
+  padding-right: 2%;
+  width: 50%;
+}
+
+.main-section .section2-container .right-column h1 {
+  color: white;
+  font-size: 3rem;
+}
+
+.main-section .section2-container .right-column h3 {
+  color: white;
+  font-size: 1.4rem;
+  font-weight: normal;
+  margin-top: 5%;
+}
+
+.question-cont {
+  background-color: black;
+  border-top: 8px solid #222;
+  padding-top: 60px;
+}
+
+.question-cont h1 {
+  color: white;
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 3%;
+}
+
+.question-cont button {
+  border: none;
+  background-color: #303030;
+  color: white;
+  width: 60%;
+  font-size: 23px;
+  padding: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+  position: relative;
+}
+
+.question-cont button i {
+  width: 3%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+  position: absolute;
+  right: 20px;
+}
+
+.question-cont .answer1,
+.question-cont .answer2,
+.question-cont .answer3,
+.question-cont .answer4,
+.question-cont .answer5,
+.question-cont .answer6 {
+  background-color: #303030;
+  width: 60%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+  padding: 15px;
+  font-size: 20px;
+  display: none;
+  color: white;
+  border-top: 2px solid #dc030f;
+}
+
+.email-container {
+  z-index: 2;
+  position: relative;
+  text-align: center;
+  width: 100%;
+  padding-top: 4%;
+  padding-bottom: 4%;
+  background-color: black;
+}
+
+.email-container input {
+  width: 35%;
+  padding: 22px;
+  border: none;
+  margin-top: 0.5%;
+  outline: none;
+}
+
+.email-container button {
+  padding: 22px;
+  border: none;
+  background-color: #dc030f;
+  color: white;
+  margin-left: -0.3%;
+  font-weight: bold;
+}
+
+.email-container p {
+  font-size: 1.2rem;
+  color: white;
+}
+
+footer {
+  background-color: black;
+  border-top: 8px solid #222;
+  padding-top: 5%;
+}
+
+footer h5 {
+  color: #fafafa;
+  text-align: center;
+}
+
+footer .content {
+  max-width: 1350px;
+  margin: 0px 90px;
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+footer .content p {
+  text-align: justify;
+}
+
+footer .content .mid {
+  padding-left: 80px;
+}
+
+footer .content .mid select {
+  padding: 8px;
+  background-color: transparent;
+  border: 1px solid #333;
+  color: white;
+}
+
+footer .content .mid select option {
+  background-color: #dc030f;
+}
+
+footer .content .mid a {
+  line-height: 32px;
+  text-decoration: none;
+  color: #fafafa;
+}
+
+footer .content .mid a:hover {
+  text-decoration: underline;
+}
+
+footer .content .box {
+  width: 20%;
+  -webkit-transition: all 0.4 ease;
+  transition: all 0.4 ease;
+}
+
+@media (max-width: 1100px) {
+  footer .content .mid {
+    padding-left: 50px;
+  }
+}
+
+@media (max-width: 983px) {
+  .showcase .started-container {
+    position: relative;
+    top: 90px;
+  }
+  .showcase .started-container h1 {
+    margin-top: 1.4rem;
+    font-size: 3.4rem;
+  }
+  .showcase .started-container .p-1 {
+    font-size: 1.5rem;
+  }
+  .showcase .started-container .p-2 {
+    font-size: 1rem;
+  }
+  .showcase .started-container input {
+    padding: 17px;
+    width: 55%;
+  }
+  .showcase .started-container button {
+    display: block;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 0 auto;
+    margin-top: 1.5%;
+    padding: 12px;
+  }
+  .main-section .section-container {
+    display: block;
+  }
+  .main-section .section-container .left-column {
+    width: 100%;
+    text-align: center;
+  }
+  .main-section .section-container .right-column {
+    text-align: center;
+    margin-left: 1rem;
+  }
+  .main-section .section-container .right-column img {
+    width: 100%;
+  }
+  .main-section .section2-container {
+    display: block;
+  }
+  .main-section .section2-container .left-column {
+    width: 100%;
+  }
+  .main-section .section2-container .right-column {
+    width: 100%;
+    text-align: center;
+  }
+  footer .content .box {
+    width: 50%;
+  }
+}
+
+@media (max-width: 775px) {
+  .main-section .section-container {
+    padding-bottom: 0px;
+  }
+}
+
+@media (max-width: 659px) {
+  .showcase .showcase-top {
+    padding: 26px 0px 0px 25px;
+  }
+  .showcase .showcase-top #logo {
+    height: 25px;
+  }
+  .showcase .showcase-top .submit {
+    position: relative;
+    right: 25px;
+    padding: 2px 10px;
+  }
+  .showcase .showcase-top select {
+    position: relative;
+    right: 40px;
+    padding: 2px 10px;
+  }
+  .showcase .started-container {
+    position: relative;
+    top: 60px;
+  }
+  .showcase .started-container h1 {
+    font-size: 2.4rem;
+    padding: 50px;
+    padding-bottom: 0px;
+  }
+  .showcase .started-container .p-1 {
+    font-size: 1.5rem;
+  }
+  .showcase .started-container .p-2 {
+    font-size: 1rem;
+  }
+  .showcase .started-container input {
+    padding: 14px;
+    width: 70%;
+  }
+  .question-cont button {
+    width: 100%;
+  }
+  .question-cont .answer1,
+  .question-cont .answer2,
+  .question-cont .answer3,
+  .question-cont .answer4,
+  .question-cont .answer5,
+  .question-cont .answer6 {
+    width: 100%;
+  }
+  .email-container input {
+    padding: 17px;
+    width: 55%;
+  }
+  .email-container button {
+    display: block;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 0 auto;
+    padding: 12px;
+    margin-top: 0.5%;
+  }
+  .email-container p {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .main-section .section-container .right-column {
+    height: 270px;
+  }
+  .main-section .section2-container .left-column .box {
+    width: 100%;
+  }
+  footer .content .box {
+    width: 100%;
+    margin-top: 30px;
+  }
+  footer .content .mid {
+    padding-left: 0;
+  }
+}
+
+@media (max-width: 350px) {
+  .showcase .showcase-top #logo {
+    height: 21.534px;
+  }
+  .showcase .showcase-top .submit {
+    padding: 1px 5px;
+  }
+  .showcase .showcase-top select {
+    padding: 1px 0px;
+    position: relative;
+    right: 30px;
+  }
+  .showcase .started-container h1 {
+    font-size: 1.5rem;
+  }
+  .showcase .started-container .p-1 {
+    font-size: 1.1rem;
+  }
+  .showcase .started-container .p-2 {
+    font-size: 0.8rem;
+  }
+}
+/*# sourceMappingURL=style.css.map */
