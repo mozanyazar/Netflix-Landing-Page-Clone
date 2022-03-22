@@ -14,7 +14,10 @@ $color-red:#dc030f;
     width: 100%;
     height: 100vh;
     position: relative;
-    background: url(/img/Netflix-Background.jpg) no-repeat center center/cover;
+    background-image: url(/img/Netflix-Background.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
     &::after {
         content: '';
         position: absolute;
@@ -500,6 +503,14 @@ footer {
             .right-column {
                 height: 270px;
             }
+            .left-column {
+                h1 {
+                    font-size: 2.4rem;
+                }
+                h3 {
+                    font-size: 1.5rem;
+                }
+            }
         }
         //download sec
         .section2-container {
@@ -508,18 +519,27 @@ footer {
                     width: 100%;
                 }
             }
+            .right-column {
+                h1 {
+                    font-size: 2.4rem;
+                }
+                h3 {
+                    font-size: 1.5rem;
+                }
+            }
         }
     }
-    //footer
-    footer {
-        .content {
-            .box {
-                width: 100%;
-                margin-top: 30px;
-            }
-            .mid {
-                padding-left: 0;
-            }
+}
+
+//footer
+footer {
+    .content {
+        .box {
+            width: 100%;
+            margin-top: 30px;
+        }
+        .mid {
+            padding-left: 0;
         }
     }
 }
