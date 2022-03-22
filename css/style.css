@@ -390,7 +390,7 @@ footer .content .box {
 
 @media (max-width: 1100px) {
   footer .content .mid {
-    padding-left: 50px;
+    padding-left: 20px;
   }
 }
 
@@ -547,15 +547,13 @@ footer .content .box {
   .main-section .section2-container .right-column h3 {
     font-size: 1.5rem;
   }
-}
-
-footer .content .box {
-  width: 100%;
-  margin-top: 30px;
-}
-
-footer .content .mid {
-  padding-left: 0;
+  footer .content .box {
+    width: 100%;
+    margin-top: 30px;
+  }
+  footer .content .mid {
+    padding-left: 0;
+  }
 }
 
 @media (max-width: 350px) {
